@@ -4,7 +4,7 @@
 # Time complexity of linear search is O(n)
 
 
-def search(array, element):
+def linear_search(array, element):
     for el in array:
         if el == element:
             return array.index(el)
@@ -13,7 +13,7 @@ def search(array, element):
 element_list = [10, 24, 54, 42, 36, 87, 12, 83]
 find = 27
 
-index = search(element_list, find)
+index = linear_search(element_list, find)
 if index:
     print(f"Element found at {index + 1} position.")
 else:

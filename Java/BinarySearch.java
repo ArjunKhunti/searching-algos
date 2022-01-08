@@ -1,6 +1,6 @@
 class BinarySearch {
 
-    public static int binarySearch(int list[], int element) {
+    private static int binarySearch(int list[], int element) {
 
         int left = 0;
         int right = list.length - 1;
